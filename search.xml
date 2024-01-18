@@ -17,25 +17,6 @@
     
     
     <entry>
-      <title>第3篇博客：PDA</title>
-      <link href="/2024/01/18/PDA/"/>
-      <url>/2024/01/18/PDA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="EDA"><a href="#EDA" class="headerlink" title="EDA"></a>EDA</h2><p>电子设计自动化（Electronic Design Automation, EDA）是集成电路的重要技术，基于计算机辅助采用机器学习等方法有效提高集成电路芯片的设计效率。</p><h2 id="PDA"><a href="#PDA" class="headerlink" title="PDA"></a>PDA</h2><p>而针对光芯片及光纤系统，同样存在光子设计自动化（Photonic Design Automation, PDA）的需求，特别是多参量、多目标的复杂功能光纤、波导、器件和系统结构及方案，采用逆向设计方法可以突破传统正向设计效率低下、性能受限等问题。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1]杜江兵. 面向光子设计自动化(上)∶光纤、波导、器件、系统[OL]. (2022-01-12). <a href="https://www.koushare.com/video/videodetail/21450">https://www.koushare.com/video/videodetail/21450</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 面向光子设计自动化 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>第1篇博客：1THz8nm的ID由来</title>
       <link href="/2024/01/18/hello-world/"/>
       <url>/2024/01/18/hello-world/</url>
@@ -47,6 +28,25 @@
         <tags>
             
             <tag> 光通信 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>第2篇博客：PDA</title>
+      <link href="/2024/01/18/PDA/"/>
+      <url>/2024/01/18/PDA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="EDA"><a href="#EDA" class="headerlink" title="EDA"></a>EDA</h2><p>电子设计自动化（Electronic Design Automation, EDA）是集成电路的重要技术，基于计算机辅助采用机器学习等方法有效提高集成电路芯片的设计效率。</p><h2 id="PDA"><a href="#PDA" class="headerlink" title="PDA"></a>PDA</h2><p>而针对光芯片及光纤系统，同样存在光子设计自动化（Photonic Design Automation, PDA）的需求，特别是多参量、多目标的复杂功能光纤、波导、器件和系统结构及方案，采用逆向设计方法可以突破传统正向设计效率低下、性能受限等问题。</p><h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1]杜江兵. 面向光子设计自动化(上)∶光纤、波导、器件、系统[OL]. (2022-01-12). <a href="https://www.koushare.com/video/videodetail/21450">https://www.koushare.com/video/videodetail/21450</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 面向光子设计自动化 </tag>
             
         </tags>
       
