@@ -202,6 +202,76 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/18/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/huoxing.jpg">
+      <meta itemprop="name" content="梅尚芯">
+      <meta itemprop="description" content="面向光子设计自动化：PDA">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="1THz8nm">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/01/18/hello-world/" class="post-title-link" itemprop="url">第1篇博客：1THz8nm的ID由来</a>
+        </h2>
+
+        <div class="post-meta">
+	  
+   		<i class="fa fa-thumb-tack"></i>
+  		<font color=7D26CD>置顶</font>
+  		<span class="post-meta-divider">|</span>
+	  
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-18 00:00:00 / 修改时间：11:52:44" itemprop="dateCreated datePublished" datetime="2024-01-18T00:00:00+08:00">2024-01-18</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>欢迎来到 <a target="_blank" rel="noopener" href="https://github.com/xiaobobro">1THz8nm 的个人博客</a>! </p>
+<h2 id="1THz-8nm"><a href="#1THz-8nm" class="headerlink" title="1THz&#x3D;8nm"></a>1THz&#x3D;8nm</h2><p>笔者是光工专业的在读博士生，在微波光子学领域常常会涉及到光域和电域的转换，而1thz8nm是带宽（FWHM_f）和谱宽（FWHM_lambda）转换的核心公式。</p>
+<h2 id="无线通信：射频信号"><a href="#无线通信：射频信号" class="headerlink" title="无线通信：射频信号"></a>无线通信：射频信号</h2><p>众所周知，信号的本质都是<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%94%B5%E7%A3%81%E6%B3%A2/102449?fromtitle=%E7%94%B5%E6%B3%A2&fromid=10807776">电磁波</a>，在电磁波频率低于100kHz时,电磁波会被地表吸收,不能形成有效的传输,一旦电磁波频率高于100kHz时,电磁波就可以在空气中传播,具有远距离传输能力人们生活中常用的电视、广播、移动电话都是基于这种高频电磁波，也被称为射频信号（RF）。<br>不难发现，RF的本质属性频率＞100kHz。而随着通信容量需求的不断增长，4G→5G→6G，人们所使用的微波频段也朝着高频拓展，但这不免也出现了成本高、传输损耗大、笨重且抗干扰能力差的问题。</p>
+<h2 id="光通信：光波段调制"><a href="#光通信：光波段调制" class="headerlink" title="光通信：光波段调制"></a>光通信：光波段调制</h2><p>与此同时，自低损耗光纤和半导体激光器相继问世以来，光纤通信技术得到飞速发展。相对于微波频段，<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%89%E9%80%9A%E4%BF%A1?fromModule=lemma_search-box">光和近红外波段</a>的频率范围要比微波频段高出大约4~5个数量级。<br>相对于微波传输，光纤通信的优势自然不必多说，首先光纤原材料是二氧化硅（硅约占地壳总重量的25.7%），仅次于氧且工艺成熟、成本非常低、抗电磁干扰能力强且传输损耗低，刚好可以弥补微波通信存在的不足，因此基于载波调制的微波光子学应用而生。</p>
+<h2 id="调制与解调"><a href="#调制与解调" class="headerlink" title="调制与解调"></a>调制与解调</h2><p>如何将要传输的射频信号利用光来传输，很重要的一个概念就是调制。<br>读者可以把调制和解调理解为你把一个面包装口袋里，然后带回家给弟弟吃，把面包装进口袋就是调制，带回家就是传输的过程，交给弟弟就是解调，面包就是信号，你就是光载波。<br>调制的定义是：把输入信号变换为适合于通过信道传输的波形，这一变换过程称为调制。通常把原始信号称为调制信号，也称基带信号；被调制的高频用于运载原始信号，因此称载波。传输完成后我们需要在接收端将信号提取出来就是解调制，也就是调制的逆过程。<br>调制和解调的原理需要基于傅里叶变换的知识去理解，这里就不多赘述。</p>
+<h2 id="nm与THz"><a href="#nm与THz" class="headerlink" title="nm与THz"></a>nm与THz</h2><p>lambda作为光的本质属性其单位为nm，它与频率f有公式：c&#x3D;lambda*f，而光纤通信常用的光波段在1550nm附近。试想一个光谱（横坐标为波长lambda，纵坐标为强度P的二维曲线）宽度8nm的光波，其换算到频域（横坐标为频率f，纵坐标为强度P的二维曲线）它的带宽是多大？答案就是1THz.<br>具体的计算留给读者结合光的频率和波长换算公式和微分来完成了。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>基于电磁波的无线通信：长波 → 短波 → 超短波 → 微波 → 太赫兹 → 光 。<br>面向更大带宽、更快传输速度、更广泛的应用，光纤通信是必然的发展趋势！</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/18/ref/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -220,6 +290,7 @@
         </h2>
 
         <div class="post-meta">
+	  
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
@@ -291,6 +362,7 @@
         </h2>
 
         <div class="post-meta">
+	  
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
@@ -315,71 +387,6 @@
           <h2 id="EDA"><a href="#EDA" class="headerlink" title="EDA"></a>EDA</h2><p>电子设计自动化（Electronic Design Automation, EDA）是集成电路的重要技术，基于计算机辅助采用机器学习等方法有效提高集成电路芯片的设计效率。</p>
 <h2 id="PDA"><a href="#PDA" class="headerlink" title="PDA"></a>PDA</h2><p>而针对光芯片及光纤系统，同样存在光子设计自动化（Photonic Design Automation, PDA）的需求，特别是多参量、多目标的复杂功能光纤、波导、器件和系统结构及方案，采用逆向设计方法可以突破传统正向设计效率低下、性能受限等问题。</p>
 <h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h2><p>[1]杜江兵. 面向光子设计自动化(上)∶光纤、波导、器件、系统[OL]. (2022-01-12). <a target="_blank" rel="noopener" href="https://www.koushare.com/video/videodetail/21450">https://www.koushare.com/video/videodetail/21450</a></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/18/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/huoxing.jpg">
-      <meta itemprop="name" content="梅尚芯">
-      <meta itemprop="description" content="面向光子设计自动化：PDA">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="1THz8nm">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2024/01/18/hello-world/" class="post-title-link" itemprop="url">第1篇博客：1THz8nm的ID由来</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2024-01-18 00:00:00 / 修改时间：11:17:44" itemprop="dateCreated datePublished" datetime="2024-01-18T00:00:00+08:00">2024-01-18</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>欢迎来到 <a target="_blank" rel="noopener" href="https://github.com/xiaobobro">1THz8nm 的个人博客</a>! </p>
-<h2 id="1THz-8nm"><a href="#1THz-8nm" class="headerlink" title="1THz&#x3D;8nm"></a>1THz&#x3D;8nm</h2><p>笔者是光工专业的在读博士生，在微波光子学领域常常会涉及到光域和电域的转换，而1thz8nm是带宽（FWHM_f）和谱宽（FWHM_lambda）转换的核心公式。</p>
-<h2 id="无线通信：射频信号"><a href="#无线通信：射频信号" class="headerlink" title="无线通信：射频信号"></a>无线通信：射频信号</h2><p>众所周知，信号的本质都是<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%94%B5%E7%A3%81%E6%B3%A2/102449?fromtitle=%E7%94%B5%E6%B3%A2&fromid=10807776">电磁波</a>，在电磁波频率低于100kHz时,电磁波会被地表吸收,不能形成有效的传输,一旦电磁波频率高于100kHz时,电磁波就可以在空气中传播,具有远距离传输能力人们生活中常用的电视、广播、移动电话都是基于这种高频电磁波，也被称为射频信号（RF）。<br>不难发现，RF的本质属性频率＞100kHz。而随着通信容量需求的不断增长，4G→5G→6G，人们所使用的微波频段也朝着高频拓展，但这不免也出现了成本高、传输损耗大、笨重且抗干扰能力差的问题。</p>
-<h2 id="光通信：光波段调制"><a href="#光通信：光波段调制" class="headerlink" title="光通信：光波段调制"></a>光通信：光波段调制</h2><p>与此同时，自低损耗光纤和半导体激光器相继问世以来，光纤通信技术得到飞速发展。相对于微波频段，<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%85%89%E9%80%9A%E4%BF%A1?fromModule=lemma_search-box">光和近红外波段</a>的频率范围要比微波频段高出大约4~5个数量级。<br>相对于微波传输，光纤通信的优势自然不必多说，首先光纤原材料是二氧化硅（硅约占地壳总重量的25.7%），仅次于氧且工艺成熟、成本非常低、抗电磁干扰能力强且传输损耗低，刚好可以弥补微波通信存在的不足，因此基于载波调制的微波光子学应用而生。</p>
-<h2 id="调制与解调"><a href="#调制与解调" class="headerlink" title="调制与解调"></a>调制与解调</h2><p>如何将要传输的射频信号利用光来传输，很重要的一个概念就是调制。<br>读者可以把调制和解调理解为你把一个面包装口袋里，然后带回家给弟弟吃，把面包装进口袋就是调制，带回家就是传输的过程，交给弟弟就是解调，面包就是信号，你就是光载波。<br>调制的定义是：把输入信号变换为适合于通过信道传输的波形，这一变换过程称为调制。通常把原始信号称为调制信号，也称基带信号；被调制的高频用于运载原始信号，因此称载波。传输完成后我们需要在接收端将信号提取出来就是解调制，也就是调制的逆过程。<br>调制和解调的原理需要基于傅里叶变换的知识去理解，这里就不多赘述。</p>
-<h2 id="nm与THz"><a href="#nm与THz" class="headerlink" title="nm与THz"></a>nm与THz</h2><p>lambda作为光的本质属性其单位为nm，它与频率f有公式：c&#x3D;lambda*f，而光纤通信常用的光波段在1550nm附近。试想一个光谱（横坐标为波长lambda，纵坐标为强度P的二维曲线）宽度8nm的光波，其换算到频域（横坐标为频率f，纵坐标为强度P的二维曲线）它的带宽是多大？答案就是1THz.<br>具体的计算留给读者结合光的频率和波长换算公式和微分来完成了。</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>基于电磁波的无线通信：长波 → 短波 → 超短波 → 微波 → 太赫兹 → 光 。<br>面向更大带宽、更快传输速度、更广泛的应用，光纤通信是必然的发展趋势！</p>
 
       
     </div>
